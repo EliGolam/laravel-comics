@@ -1,0 +1,14 @@
+/* FLEX */
+.flex {
+    display: flex;
+    gap: $_space-2;
+
+    &.f-center {
+        align-items: center;
+        justify-content: center;
+    }
+
+    &.f-col {
+        flex-direction: column;
+    }
+}
